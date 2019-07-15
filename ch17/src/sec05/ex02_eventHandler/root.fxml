@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.HBox?>
+
+
+<HBox alignment="CENTER" prefHeight="50.0" prefWidth="200.0" spacing="20.0" 
+xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1"
+fx:controller="sec05.ex02_eventHandler.RootController">
+   <children>
+      <Button fx:id="btn1" onAction="#handleBtn1Action" mnemonicParsing="false" text="버튼1" />
+      <Button fx:id="btn2" onAction="#handleBtn2Action" mnemonicParsing="false" text="버튼2" />
+      <Button fx:id="btn3" onAction="#handleBtn3Action" mnemonicParsing="false" text="버튼3" />
+   </children>
+</HBox>
