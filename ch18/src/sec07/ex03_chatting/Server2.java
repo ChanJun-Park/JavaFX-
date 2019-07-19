@@ -23,7 +23,9 @@ public class Server2 {
 		
 		try {
 			serverSocket = new ServerSocket();
-			serverSocket.bind(new InetSocketAddress("172.31.30.158", 5001));
+//			serverSocket.bind(new InetSocketAddress("172.31.30.158", 5001));
+//			serverSocket.bind(new InetSocketAddress("localhost", 5001));
+			serverSocket.bind(new InetSocketAddress("172.31.42.147", 5001));
 		} catch (Exception e) {
 			if (!serverSocket.isClosed()) {stopServer();}
 			e.printStackTrace();
