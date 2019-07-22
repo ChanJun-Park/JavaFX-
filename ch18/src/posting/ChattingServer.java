@@ -26,7 +26,7 @@ public class ChattingServer {
 		try {
 			// ServerSocket을 생성하고, 5001 번 포트로 바인딩
 			serverSocket = new ServerSocket();
-			serverSocket.bind(new InetSocketAddress("localhost", 5001));
+			serverSocket.bind(new InetSocketAddress("172.31.37.237", 5001));
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
